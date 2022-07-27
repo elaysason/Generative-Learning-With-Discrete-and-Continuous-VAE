@@ -31,6 +31,7 @@ The linear layers dims encoder:
     * The linear layer dims are 64 * 4 * 4 to hidden dim. 
     * The linear discrete layers dims are hidden dim to discrete dim. 
     * The linear continuous layers dims are hidden dim to continuous dim. 
+
 The linear layers dims decoder: 
     * The linear layers dims are latent dim to hidden dim and hidden dim to 64 * 4 * 4 .
     * The linear layers also include leaky relu function. 
