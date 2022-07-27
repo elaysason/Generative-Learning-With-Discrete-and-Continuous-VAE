@@ -37,3 +37,15 @@ The linear layers dims decoder:
 * The linear layers dims are latent dim to hidden dim and hidden dim to 64 * 4 * 4 .
 * The linear layers also include leaky relu function. 
 * We used reparameterization trick for continuous variables and Gumbel SoftMax for the discrete variables.  
+
+## Installation
+1. Open the terminal
+
+2. Clone the project by:
+```
+    $ git clone https://github.com/elaysason/Generative-Learning-With-Discrete-and-Continuous-VAE.git
+```
+3. Run the main.py file by:
+```
+    $ python main.py
+```
