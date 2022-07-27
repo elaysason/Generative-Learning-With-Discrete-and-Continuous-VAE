@@ -25,3 +25,14 @@ VAE is an autoencoder which provides a probabilistic manner for describing an ob
 The VAE network is described as follows: 
 
 <img src="https://i.imgur.com/JzaBhBb.png" width = 50% height=50%>
+
+The dims of the convolution are 3-32-64, padding is 1 and stride is 2 and every convolution layer also includes Leaky relu function in both encoder and decoder. 
+The linear layers dims encoder: 
+    *The linear layer dims are 64 * 4 * 4 to hidden dim. 
+    *The linear discrete layers dims are hidden dim to discrete dim. 
+    *The linear continuous layers dims are hidden dim to continuous dim. 
+The linear layers dims decoder: 
+    *The linear layers dims are latent dim to hidden dim and hidden dim to 64 * 4 * 4 .
+    *The linear layers also include leaky relu function. 
+    *We used reparameterization trick for continuous variables and Gumbel SoftMax for the 
+    discrete variables.  
