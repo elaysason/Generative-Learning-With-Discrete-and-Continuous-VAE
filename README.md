@@ -24,4 +24,4 @@ VAE is an autoencoder which provides a probabilistic manner for describing an ob
 ### Network-Structure
 The VAE network is described as follows: 
 
-<img src="[https://i.imgur.com/mDgus7e.pn](https://i.imgur.com/sKmNDhV.png)" width = 50% height=50%>
+<img src="https://i.imgur.com/JzaBhBb.png" width = 50% height=50%>
