@@ -5,6 +5,7 @@ Using VAE based netural network in order to learn some discrete and continuous l
     - [Background](#background)
 3. [Program Structure](#Program-Structure)
     - [Network Structure](#Network-Structure)
+    - [Visualtions](#Visualtions)
 5. [Installation](#Installation)
 
 ## General
@@ -37,6 +38,15 @@ The linear layers dims decoder:
 * The linear layers dims are latent dim to hidden dim and hidden dim to 64 * 4 * 4 .
 * The linear layers also include leaky relu function. 
 * We used reparameterization trick for continuous variables and Gumbel SoftMax for the discrete variables.  
+
+### Visualtions
+Having a look about the Visualtions of the latent spaces:
+* Gender:
+    <img src="[https://i.imgur.com/JzaBhBb.png](https://i.imgur.com/JQWq0KF.png)" width = 50% height=50%>
+* Hair Style:
+    <img src="https://i.imgur.com/2xnlPmn.png" width = 50% height=50%>
+
+
 
 ## Installation
 1. Open the terminal
