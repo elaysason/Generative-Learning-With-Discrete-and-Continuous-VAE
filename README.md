@@ -49,7 +49,7 @@ Having a look about the Visualtions of the latent spaces:
 
     <img src="https://i.imgur.com/2xnlPmn.png" width = 30% height=30%>
 
-
+We can see that there is a speration but not a perfect one and in the hair which indcluds large number of categoires the model strugles with black hair for example.
 
 ## Installation
 1. Open the terminal
