@@ -42,6 +42,7 @@ The linear layers dims decoder:
 ### Visualtions
 Having a look about the Visualtions of the latent spaces:
 * Gender:
+
     <img src="https://i.imgur.com/JQWq0KF.png" width = 30% height=30%>
 
 * Hair Style:
